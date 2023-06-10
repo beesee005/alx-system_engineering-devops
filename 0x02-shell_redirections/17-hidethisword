@@ -1,3 +1,2 @@
 #!/bin/bash
-tr "A" "Z" | tr "c" "e"
-
+egrep ^[[:alpha:]] /etc/ssh/sshd_config
